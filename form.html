@@ -4,13 +4,15 @@
         <title> </title>
     </head>
     <body>
-        <form>
+        <form method="POSY" action="https://formspree.io/d.lubenchenko@gmail.com">
             <label for="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="Your name" required>
             <br>
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" placeholder="Your email" required>
             <br>
+            <label for="car"></label>
+            <input type="text" name="car" id="car" pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}" title="AA123456BB" placeholder="AA123456BB" requaired>
             <label for="comment">Comment:</label>
             <textarea name="comment" id="comment" placeholder="Your email"></textarea>
             <br>
